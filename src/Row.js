@@ -13,10 +13,9 @@ function Row({
   isLargeRow,
 }) {
   const [movies, setMovies] = useState([]);
-  // const base_url = "https://image.tmdb.org/t/p/original/";
+  
   const base_url = "https://www.themoviedb.org/t/p/w220_and_h330_face/";
-  // const base_url = "https://image.tmdb.org/t/p/w500/";
-  // const base_url = "https://image.tmdb.org/t/p/w200/";
+  
 
   useEffect(() => {
     // Fetch data
